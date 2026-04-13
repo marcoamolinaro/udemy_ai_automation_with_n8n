@@ -1,0 +1,18 @@
+1. Adicionar no workflow um conector para google sheets
+2. 
+3. Entrar no google console, criar um projeto, habilitar Google Sheets API
+4. Entrar em conset OAuth e cliar em Get Start
+   - Seguir o passo a passo, em Audience selecionar External, adicionar o user também em audience, create.
+5. Na tela seguinte, clicar em "Create OAuth Client"
+6. Na tela seguinte, em Aplication Type colocar "Webapplication", 
+   em "Authorized redirect URIs" clicar em Add URI colar a URL do n8n 
+   que está na tela "Google Sheets Account", "OAuth Redirect URL", depois
+   voltar no console e clicar em create, clicar em OK
+7. Na tela do console em "OAuth 2.0 Client IDs" clicar no ícone para editar
+   Copiar o Client ID voltar no n8n e colar no cliente id
+   Copiar o Secret Key voltar mo n8n e colcar o secrete key
+8. Na tela do n8n Google Sheets account clicar em sign on google sheets,
+   vai aparecer uma tela de login do google fazer login com o mesmo email,
+   clicar em continuar, selecionar tudo, ok. 
+   Voltar na tela do n8n e verificar a mensagem em verde que está tudo ok.
+9. Seguir os passos para terminar a integração

@@ -27,14 +27,14 @@
       "type": "n8n-nodes-base.airtableTrigger",
       "typeVersion": 1,
       "position": [
-        -480,
-        -96
+        0,
+        0
       ],
-      "id": "2031137c-ea57-4909-8ec0-e1dc2d7f899e",
+      "id": "777d574f-a7db-4f76-a1f1-eb08e7b9b962",
       "name": "Airtable Trigger",
       "credentials": {
         "airtableTokenApi": {
-          "id": "0GqDJLqMczweDWCd",
+          "id": "XOHHPa4aDNPrSELw",
           "name": "Airtable Personal Access Token account"
         }
       }
@@ -60,15 +60,15 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        -256,
-        -96
+        224,
+        0
       ],
-      "id": "17fe8d64-4564-422d-ae81-98ca864139a0",
+      "id": "95345f4d-b9a8-4558-b402-4951523c4fa7",
       "name": "OpenAI",
       "credentials": {
         "openAiApi": {
-          "id": "j3MzURfrSSY26wRg",
-          "name": "OpenAI account"
+          "id": "Vs2kGKezx43AQ5rJ",
+          "name": "OpenAI account 2"
         }
       }
     },
@@ -85,15 +85,15 @@
       "type": "n8n-nodes-base.gmail",
       "typeVersion": 2.1,
       "position": [
-        112,
-        -96
+        592,
+        0
       ],
-      "id": "445f1d69-b4dd-457b-8233-483e91a03eed",
+      "id": "5ce6e7ae-4831-462b-9fca-3c13db502d86",
       "name": "Gmail",
       "webhookId": "0cf99814-75bd-4932-bfc6-ee92e9ac87fa",
       "credentials": {
         "gmailOAuth2": {
-          "id": "cSao3J21Yoqdt3Ur",
+          "id": "IBL5eyuTQHZbdL1z",
           "name": "Gmail account"
         }
       }
@@ -124,16 +124,16 @@
       ]
     }
   },
-  "active": true,
+  "active": false,
   "settings": {
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "6fc9da4d-c940-4b9d-8333-eb3c8895847c",
+  "versionId": "47d77800-ef77-42c3-9126-a10cc43cfb93",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "21ffa2e8c35bef78eb661140b3684bc4c4e2b3abded5861853942eecb00536f0"
+    "instanceId": "621e2e6b21ac9e16fdc8272d2ca91bead588e15f38fd91a53aa550d2c7468346"
   },
-  "id": "5jPwfhyYitdw7CEW",
+  "id": "yBe76zu0EtSUkk6q",
   "tags": []
 }
