@@ -1,0 +1,12 @@
+docker volume create n8n_data
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n -e N8N_RESTRICT_FILE_ACCESS_TO=/home/node/ docker.n8n.io/n8nio/n8n
+
+docker exec -it n8n bash -c "echo '' > /home/node/teste.txt
+
+
+Sem ser pelo docker
+fazer pull do n8n no github
+npx n8n
+após instalar
+$env:N8N_RESTRICT_FILE_ACCESS_TO="D:\data_n8n"
+n8n
