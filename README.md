@@ -9,8 +9,9 @@ How to run n8n on docker desktop
 How to use ollama
     - Go to ollama website and download, when the downloand finish execute the .exe, and following the instruction
     - When finishes the installation open a PS window as administrator and input the following command 
-        ollama run deepseek-r1 after download and install close the ps window
-    - Open another PS window and type ollama serve, copy the url and past on a new windows broser it should show the "Ollama is running" message
+        ollama run deepseek-r1:7b after download and install close the ps window
+    - Open another PS window and type ollama serve, copy the url and past on a new windows 
+	  browser it should show the "Ollama is running" message
 
 
 
