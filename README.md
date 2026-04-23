@@ -4,6 +4,14 @@ How to run n8n on docker desktop
         docker volume create n8n_data (for the first time to create folder)
         docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n -e N8N_RESTRICT_FILE_ACCESS_TO=/home/node/ docker.n8n.io/n8nio/n8n
 
+How to install on windows
+	- Download from github
+	- npx n8n
+
+How to run on windows locally
+	- Open a Power Shell window
+		- type $env:N8N_RESTRICT_FILE_ACCESS_TO="D:\data_n8n"
+		- n8n
 
 
 How to use ollama
